@@ -1,0 +1,23 @@
+{
+	"type": "origins:multiple",
+	"allure": {
+		"type": "origins:action_over_time",
+		"entity_action": {
+			"type": "origins:execute_command",
+			"command": "function medievalorigins:mdvlorigins/allure"
+		},
+		"interval": 100
+	},
+	"allure_callback": {
+		"type": "origins:action_on_callback",
+		"entity_action_chosen": {
+			"type": "origins:execute_command",
+			"command": "function medievalorigins:mdvlorigins/allure_callon"
+		},
+		"entity_action_lost": {
+			"type": "origins:execute_command",
+			"command": "function medievalorigins:mdvlorigins/allure_callback"
+		},
+		"execute_chosen_when_orb": true
+	}
+}

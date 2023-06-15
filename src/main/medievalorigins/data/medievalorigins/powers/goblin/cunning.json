@@ -1,0 +1,14 @@
+{
+	"type": "origins:attribute",
+	"modifiers": [{
+			"attribute": "minecraft:generic.attack_damage",
+			"operation": "addition",
+			"value": 1.0
+		},
+		{
+			"attribute": "minecraft:generic.luck",
+			"operation": "addition",
+			"value": 1.0
+		}
+	]
+}
