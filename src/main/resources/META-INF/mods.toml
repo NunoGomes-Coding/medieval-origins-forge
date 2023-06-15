@@ -8,7 +8,7 @@ version = "1.0.0"
 displayName = "Medieval Origins [Forge]"
 description = "A Port from Fabric Mod. Medieval Origins is an addon for the Origins mod, focused on the medieval era, with a slight bit of Greek mythology. It contains 15 new Origins."
 
-displayURL = "https://github.com/NunoGomes-Coding/medieval-origins"
+displayURL = "https://github.com/NunoGomes-Coding/medieval-origins-forge"
 authors = "Nuno Gomes"
 credits = "Credit goes to Original Fabric author"
 logoFile = "icon.png"
